@@ -1,3 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+
+* {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #fff2ff;
+  font-family: "Roboto Mono", monospace;
+}
+.home-container {
+  margin-top: 200px;
+  text-align: center;
+}
+.home-name {
+  font-size: 65px;
+  font-weight: 300;
+}
+
+.typewriter {
+  font-size: xx-large;
+}
+
+.profile-image {
+  border-radius: 1000px;
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0px auto;
+}
+
+.profile-image:hover{
+  animation: bounce 2s infinite;
+}
+
+.wave{
+  animation: bounce 2s infinite;
+}
+
+.cursor {
+  line-height: 40px;
+  margin-left: 3px;
+  animation: blink 0.8s infinite;
+  width: 4px;
+  height: 30px;
+  display: inline-block;
+}
+
+.nav-bar {
+  padding: 10px;
+  display: flex;
+  background-color: black;
+}
+
+.nav-button {
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+.nav-button:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  40% {transform: translateY(-30px);} 
+  60% {transform: translateY(-15px);} 
+} 
+
+@keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: none;
+  }
+  100% {
+    background: #222;
+  }
+}
 
 @keyframes App-logo-spin {
   from {

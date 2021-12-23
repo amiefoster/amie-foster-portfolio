@@ -11,17 +11,17 @@ import "../App.css";
 function App() {
   return (
     <div>
-      <h1>Amie Fosters Portfolio</h1>
       <Navbar />
 
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/About" element={<About />} />
-        <Route exact path="/Skills" element={<Skills />} />
-        <Route exact path="/Projects" element={<Projects />} />
-        <Route exact path="/Contact" element={<Contact />} />
-        <Footer />
+        <Route exact path="/" index element={<Home />} />
+        <Route exact path="/About" index element={<About />} />
+        <Route exact path="/Skills" index element={<Skills />} />
+        <Route exact path="/Projects" index element={<Projects />} />
+        <Route exact path="/Contact" index element={<Contact />} />
+        
       </Routes>
+       
     </div>
   );
 }
