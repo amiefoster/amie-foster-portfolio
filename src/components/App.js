@@ -6,19 +6,28 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Route, Routes } from "react-router-dom";
+import { useState } from 'react';
 import "../App.css";
+import react from "react";
 
 function App() {
+  const [showHome, setShowHome] = useState(true);
+
+  const toggleShowHome = () => {
+    setShowHome(false)
+  }
+
   return (
     <div>
-      <Navbar />
+      <Navbar toggleShowHome={toggleShowHome} />
+      {showHome ? <Home /> : null}
 
       <Routes>
-        <Route exact path="/" index element={<Home />} />
-        <Route exact path="/About" index element={<About />} />
-        <Route exact path="/Skills" index element={<Skills />} />
-        <Route exact path="/Projects" index element={<Projects />} />
-        <Route exact path="/Contact" index element={<Contact />} />
+        <Route exact path="/" index element={<Home />}  />
+        <Route exact path="/About" index element={<About />}  />
+        <Route exact path="/Skills" index element={<Skills />}  />
+        <Route exact path="/Projects" index element={<Projects />}  />
+        <Route exact path="/Contact" index element={<Contact />}  />
         
       </Routes>
        
@@ -27,3 +36,7 @@ function App() {
 }
 
 export default App;
+
+//nav bar notes
+  //maybe you just render all components on the top level
+    //have buttons in "nav" and then onclick navigate using usehistory to that component
