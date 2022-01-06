@@ -2,7 +2,11 @@ import { NavLink, Link } from "react-router-dom";
 
 function Navbar( {toggleShowHome} ) {
     return (
-      <div className="nav-bar">
+      <div className="row">
+        <div className="col-sm-6 nav-left">
+          <p className="nav-name">Amie Foster 👩🏼‍💻</p>
+        </div>
+        <div className="col-sm-6 nav-right">
         <NavLink className="nav-button" to="/" >
           Home
         </NavLink>
@@ -18,6 +22,8 @@ function Navbar( {toggleShowHome} ) {
         <NavLink className="nav-button" to="/Contact" onClick={toggleShowHome}>
           Contact
         </NavLink>
+        </div>
+
       </div>
     );
   }

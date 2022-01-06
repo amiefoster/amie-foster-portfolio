@@ -30,11 +30,11 @@
   margin: 0px auto;
 }
 
-.profile-image:hover{
+.profile-image:hover {
   animation: bounce 2s infinite;
 }
 
-.wave{
+.wave {
   animation: bounce 2s infinite;
 }
 
@@ -48,9 +48,29 @@
 }
 
 .nav-bar {
-  padding: 10px;
-  display: flex;
   background-color: black;
+}
+
+.nav-left {
+  text-align: left;
+  justify-content: left;
+  background-color: black;
+  color: white;
+  padding: 20px; 
+}
+
+.nav-name{
+  font-size: x-large;
+  padding-left: 20px;;
+  background-color: black;
+}
+
+.nav-right {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  text-align: right;
+  justify-content: right;
 }
 
 .nav-button {
@@ -69,50 +89,63 @@
   border-bottom: 1px solid white;
 }
 
-.skills-title{
-   margin-top: 75px;
-}
 
-.skills-container{
-  margin-top: 10px;
+.skills-container {
+  margin-top: 75px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: #caaffe;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
-.skill-icon{
+.skill-icon {
   justify-self: center;
   margin: 10px;
   height: 75px;
   border-radius: 10px;
+  background-color: #caaffe;
+
 }
 
-.project-title{
+.project-title {
   margin-top: 30px;
 }
 
-.project-container{
+.project-container {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.project-card{
+.project-card {
   margin: 20px;
   border-radius: 10px;
   background-color: white;
 }
 
-.background-white{
+.background-white {
   background-color: white;
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-  40% {transform: translateY(-30px);} 
-  60% {transform: translateY(-15px);} 
-} 
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 
 @keyframes blink {
   0% {

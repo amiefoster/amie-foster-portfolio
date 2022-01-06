@@ -10,8 +10,8 @@ function Project() {
       </div>
 
       <div className="row ">
-        <div className="col-md-12 project-container">
-          <div className="card project-card" style={{ width: "20rem" }}>
+        <div className="col-md-12 project-container justify-content-center">
+          <div className="card project-card" style={{ width: "25rem" }}>
             <img src={pic} className="card-img-top" alt="..." />
             <div className="card-body background-white">
               <h5 className="card-title background-white">Planz</h5>
@@ -29,7 +29,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card" style={{ width: "20rem" }}>
+          <div className="card project-card" style={{ width: "25rem" }}>
             <img src={pic} className="card-img-top" alt="..." />
             <div className="card-body background-white">
               <h5 className="card-title background-white">Wander</h5>
@@ -47,7 +47,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card" style={{ width: "20rem" }}>
+          <div className="card project-card" style={{ width: "25rem" }}>
             <img src={pic} className="card-img-top" alt="..." />
             <div className="card-body background-white">
               <h5 className="card-title background-white">Dander</h5>
@@ -65,7 +65,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card" style={{ width: "20rem" }}>
+          <div className="card project-card" style={{ width: "25rem" }}>
             <img src={pic} className="card-img-top" alt="..." />
             <div className="card-body background-white">
               <h5 className="card-title background-white">Jokester</h5>
