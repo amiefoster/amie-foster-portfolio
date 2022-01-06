@@ -69,6 +69,45 @@
   border-bottom: 1px solid white;
 }
 
+.skills-title{
+   margin-top: 75px;
+}
+
+.skills-container{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-icon{
+  justify-self: center;
+  margin: 10px;
+  height: 75px;
+  border-radius: 10px;
+}
+
+.project-title{
+  margin-top: 30px;
+}
+
+.project-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-card{
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.background-white{
+  background-color: white;
+}
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
   40% {transform: translateY(-30px);} 
