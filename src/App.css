@@ -98,7 +98,7 @@
   background-color: #caaffe;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-bottom: 50px;
+  border: solid black 2px;
 }
 
 .skill-icon {
@@ -127,8 +127,47 @@
   background-color: white;
 }
 
+.project-img{
+  overflow: hidden;
+}
+
+.project-links{
+  background: none;
+  height: 25px;
+}
+
+.project-links:hover{
+  transform: scale(1.2);
+
+}
+
+.image-container{
+  overflow: hidden;
+
+}
+.project-img:hover{
+  border: black solid 1px;
+  transform: scale(1.25);
+}
+
 .background-white {
   background-color: white;
+}
+
+.footer-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  background-color: black;
+  text-align: right;
+  justify-content: right;
+  
+}
+
+.footer-icon {
+  padding: 15px;
+  width: 60px;
+  background-color: black;
 }
 
 @keyframes bounce {

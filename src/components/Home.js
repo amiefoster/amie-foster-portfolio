@@ -33,7 +33,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center">
+      {/* <div className="row justify-content-center">
           <div className="col-md-12 skills-container justify-content-center">
             <img src={javascript} className="skill-icon" />
             <img src={react} className="skill-icon" />
@@ -43,7 +43,7 @@ function Home() {
             <img src={css} className="skill-icon" />
             <img src={bootstrap} className="skill-icon" />
           </div>
-        </div>
+        </div> */}
     </div>
   );
 }

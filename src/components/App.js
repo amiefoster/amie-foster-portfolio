@@ -20,16 +20,19 @@ function App() {
   return (
     <div>
       <Navbar toggleShowHome={toggleShowHome} />
-      {showHome ? <Home /> : null}
+      {showHome && <div><Home /> <About /> <Skills /> <Projects /> <Contact /></div>}
+      
 
       <Routes>
-        <Route exact path="/" index element={<Home />}  />
+        <Route exact path="/amiefoster/amie-foster-portfolio" index element={<Home />}  />
         <Route exact path="/About" index element={<About />}  />
         <Route exact path="/Skills" index element={<Skills />}  />
         <Route exact path="/Projects" index element={<Projects />}  />
         <Route exact path="/Contact" index element={<Contact />}  />
         
       </Routes>
+
+      <Footer />
        
     </div>
   );
