@@ -1,8 +1,9 @@
+import up from '../images/up.png'
 import { Link } from 'react-scroll';
 
 function Navbar() {
     return (
-      <div className="row nav-bar">
+      <div id="nav" className="row nav-bar">
         <div className="col-sm-6 nav-left">
           <p className="nav-name">Amie Foster 👩🏼‍💻</p>
         </div>
@@ -18,6 +19,10 @@ function Navbar() {
         </Link>
         <Link className="nav-button" to="contact" spy={true} smooth={true} >
           Contact
+        </Link>
+
+        <Link className="home-button background-none" to="nav" spy={true} smooth={true}>
+          <img src={up} className="background-none"/>
         </Link>
         </div>
 

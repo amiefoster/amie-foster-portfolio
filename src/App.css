@@ -217,6 +217,26 @@
   right: 0;
 }
 
+.about-container{
+  margin-top: 40px;
+  padding: 20px 50px 20px 50px;
+  background-color: black;
+  color: white;
+  border-top: #caaffe solid 5px;
+  border-bottom: #caaffe solid 5px;
+
+}
+
+.home-button{
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+}
+
+.home-button:hover{
+  cursor: pointer;
+}
+
 @keyframes bounce {
   0%,
   20%,

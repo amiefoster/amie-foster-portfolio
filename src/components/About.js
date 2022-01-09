@@ -1,8 +1,8 @@
 function About() {
   return (
-    <div id="about" className="content">
-      <div>
-        <h5>
+    <div id="about" className="content about-container">
+      <div className="background-none">
+        <h5 className="background-none">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
           vestibulum, tellus eget consectetur consectetur, eros tellus
           condimentum justo, vel tincidunt felis libero a ante. Donec non
