@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/amiefoster/amie-foster-portfolio/static/css/main.afc27c0a.css",
+    "main.js": "/amiefoster/amie-foster-portfolio/static/js/main.68f97695.js",
+    "static/media/amie.JPG": "/amiefoster/amie-foster-portfolio/static/media/amie.0f027a1552d4cfd3373b.JPG",
+    "static/media/wander.jpeg": "/amiefoster/amie-foster-portfolio/static/media/wander.1d53ef93291162beb007.jpeg",
+    "static/media/dander.jpeg": "/amiefoster/amie-foster-portfolio/static/media/dander.094e6704cc3cc4bf1728.jpeg",
+    "static/media/jokester.jpeg": "/amiefoster/amie-foster-portfolio/static/media/jokester.1de34363805c23e69735.jpeg",
+    "static/media/planz.jpeg": "/amiefoster/amie-foster-portfolio/static/media/planz.1e2367088e1dc13c92bf.jpeg",
+    "index.html": "/amiefoster/amie-foster-portfolio/index.html",
+    "main.afc27c0a.css.map": "/amiefoster/amie-foster-portfolio/static/css/main.afc27c0a.css.map",
+    "main.68f97695.js.map": "/amiefoster/amie-foster-portfolio/static/js/main.68f97695.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afc27c0a.css",
+    "static/js/main.68f97695.js"
+  ]
+}
