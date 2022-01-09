@@ -3,16 +3,14 @@ import wander from "../images/wander.jpeg";
 import dander from "../images/dander.jpeg";
 import jokester from "../images/jokester.jpeg";
 import youtube from '../images/youtube.png';
-import github from '../images/github.png';
+import github from '../images/github2.png';
 import open from '../images/open.png';
 
 function Project() {
   return (
-    <div className="container ">
-      <div className="row project-title">
-        <div className="col-md-6">
-          <h1>Projects</h1>
-        </div>
+    <div id="projects" className="content" >
+      <div className="project-title">
+        <h1 className="background-none">Projects</h1>
       </div>
 
       <div className="row ">
@@ -69,8 +67,7 @@ function Project() {
                 React, Ruby on Rails, Google Maps API, Bootstrap, CSS
               </h6>
               <p className="card-text background-white">
-                An app for avid hikers. Users can log in, discover, and save
-                hikes to their profile.
+                An app for avid hikers. Users can log in, discover hikes within national parks, and save hikes to their profile.
               </p>
               <a
                 href="https://wanderproject.herokuapp.com/"

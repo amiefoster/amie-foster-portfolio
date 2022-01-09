@@ -1,27 +1,24 @@
-import { NavLink, Link } from "react-router-dom";
+import { Link } from 'react-scroll';
 
-function Navbar( {toggleShowHome} ) {
+function Navbar() {
     return (
-      <div className="row">
+      <div className="row nav-bar">
         <div className="col-sm-6 nav-left">
           <p className="nav-name">Amie Foster 👩🏼‍💻</p>
         </div>
         <div className="col-sm-6 nav-right">
-        <NavLink className="nav-button" to="/" >
-          Home
-        </NavLink>
-        <NavLink className="nav-button" to="/About" onClick={toggleShowHome} >
+        <Link className="nav-button" to="about" spy={true} smooth={true} >
           About
-        </NavLink>
-        <NavLink className="nav-button" to="/Skills" onClick={toggleShowHome}>
+        </Link>
+        <Link className="nav-button" to="skills" spy={true} smooth={true} >
           Skills
-        </NavLink>
-        <NavLink className="nav-button" to="/Projects" onClick={toggleShowHome}>
+        </Link>
+        <Link className="nav-button" to="projects" spy={true} smooth={true} >
           Projects
-        </NavLink>
-        <NavLink className="nav-button" to="/Contact" onClick={toggleShowHome}>
+        </Link>
+        <Link className="nav-button" to="contact" spy={true} smooth={true} >
           Contact
-        </NavLink>
+        </Link>
         </div>
 
       </div>

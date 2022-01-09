@@ -8,7 +8,7 @@ import ror from "../images/ror.png";
 
 function Skills() {
     return (
-      <div>
+      <div id="skills" className="content">
         <div className="row justify-content-center">
         <div className="col-md-12 skills-container justify-content-center">
           

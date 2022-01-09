@@ -6,6 +6,7 @@ import gmail from '../images/gmail-white.png'
 
 function Footer() {
     return (
+ 
       <div className=" col-md-12 footer-container">
         <img src={linkedin} alt="" className="footer-icon" />
         <img src={medium} alt="" className="footer-icon" />
@@ -13,6 +14,7 @@ function Footer() {
         <img src={gmail} alt="" className="footer-icon" />
 
       </div>
+    
     );
   }
   
