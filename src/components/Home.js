@@ -6,10 +6,10 @@ function Home() {
     <div id="home" className="content">
       <div className="container">
         <div className="row justify-content-center home-container">
-          <div className="col">
+          <div className="col-md-4">
             <img className="profile-image" src={pic}></img>
           </div>
-          <div className="col justify-content-center">
+          <div className="col-md-4 justify-content-center">
             <div className="home-name">
               Hi, I'm Amie <span className="wave">👋</span>
             </div>

@@ -5,8 +5,51 @@
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  background-color: #fff2ff;
+  /* background-color: #f5ebe0; */
   font-family: "Roboto Mono", monospace;
+}
+
+html {
+  height: 100%;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #b0c4b1 50%, #eae0cc 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.bg-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  padding: 10vmin;
+  text-align: center;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
 }
 
 .home-container {
@@ -54,7 +97,7 @@
   position: absolute;
   margin-left: 0 !important;
   overflow: hidden;
-  z-index:1;
+  z-index: 1;
 }
 
 .nav-left {
@@ -62,12 +105,12 @@
   justify-content: left;
   background-color: black;
   color: white;
-  padding: 20px; 
+  padding: 20px;
 }
 
-.nav-name{
+.nav-name {
   font-size: x-large;
-  padding-left: 20px;;
+  padding-left: 20px;
   background-color: black;
 }
 
@@ -96,84 +139,93 @@
   border-bottom: 1px solid white;
 }
 
-.content{
+.content {
   padding-top: 75px;
-  
 }
 
 .skills-container {
-  margin-top: 75px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #caaffe;
+  /* background-color: rgba(255, 255, 255, 0.7); */
   padding-top: 50px;
   padding-bottom: 50px;
-  border: solid black 2px;
+  /* border: solid black 2px; */
+}
+
+.skills-title{
+  text-align: center;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  right: 0;
 }
 
 .skill-icon {
   justify-self: center;
   margin: 10px;
-  height: 75px;
-  border-radius: 10px;
-  background-color: #caaffe;
-
+  height: 125px;
+  padding: 15px;
+  border-radius: 1000px;
+  /* background-color: rgba(255, 255, 255); */
+  margin: 30px;
+  /* border: 3px black solid; */
 }
 
 .project-title {
   margin-top: 30px;
   background-color: black;
+  color: white;
   justify-content: center;
   text-align: center;
-  background-color: #caaffe;
-  border: black solid 1px;
-  padding: 5px;
+  padding: 15px;
   right: 0;
 }
 
 .project-container {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
 }
 
 .project-card {
   margin: 20px;
   border-radius: 10px;
   background-color: white;
+  border: black 1px solid;
 }
 
-.project-img{
+.project-img {
   overflow: hidden;
 }
 
-.project-links{
+.project-links {
   background: none;
   height: 25px;
 }
 
-.project-links:hover{
+.project-links:hover {
   transform: scale(1.2);
-
 }
 
-.image-container{
+.image-container {
   overflow: hidden;
-
 }
-.project-img:hover{
+.project-img:hover {
   border: black solid 1px;
   transform: scale(1.25);
 }
 
 .background-white {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.footer-container{
+.footer-container {
   padding-top: 50px;
   padding-bottom: 50px;
   position: absolute;
@@ -181,7 +233,6 @@
   text-align: center;
   justify-content: center;
   color: white;
-  
 }
 
 .footer-icon {
@@ -190,50 +241,46 @@
   background-color: black;
 }
 
-.footer-icon:hover{
+.footer-icon:hover {
   transform: scale(1.2);
   cursor: pointer;
-
 }
 
-.background-none{
+.background-none {
   background: none;
 }
 
-.contact-container{
-  justify-content: center;
-  text-align: center;padding-bottom: 30px;
-}
-
-.contact-title{
-  margin-top: 30px;
-  margin-bottom: 20px;;
-  background-color: black;
+.contact-container {
   justify-content: center;
   text-align: center;
-  background-color: #caaffe;
-  border: black solid 1px;
-  padding: 5px;
+  padding-bottom: 30px;
+}
+
+.contact-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
   right: 0;
 }
 
-.about-container{
-  margin-top: 40px;
+.about-container {
+  margin-top: 100px;
   padding: 20px 50px 20px 50px;
   background-color: black;
   color: white;
-  border-top: #caaffe solid 5px;
-  border-bottom: #caaffe solid 5px;
-
 }
 
-.home-button{
+.home-button {
   position: fixed;
   bottom: 50px;
   right: 25px;
 }
 
-.home-button:hover{
+.home-button:hover {
   cursor: pointer;
 }
 
