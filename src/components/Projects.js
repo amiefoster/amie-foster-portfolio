@@ -8,18 +8,18 @@ import open from '../images/open.png';
 
 function Project() {
   return (
-    <div id="projects" className="content" >
-      <div className="project-title">
+    <div id="projects" className="" >
+      <div className="row project-title">
         <h1 className="background-none">Projects</h1>
       </div>
 
       <div className="row ">
         <div className="col-md-12 project-container justify-content-center">
-          <div className="card project-card" style={{ width: "35rem" }}>
+          <div className="card border-rad project-card" style={{ width: "35rem" }}>
             <div className="image-container">
-              <img src={planz} className="card-img-top project-img" alt="..." />
+              <img src={planz} className=" border-rad card-img-top project-img" alt="..." />
             </div>
-            <div className="card-body background-white">
+            <div className="card-body border-rad background-white">
               <h5 className="card-title background-white">Planz</h5>
               <h6 className="card-subtitle mb-2 text-muted background-white">
                 React, Ruby on Rails, BCrypt, Bootstrap, CSS
@@ -53,15 +53,15 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card" style={{ width: "35rem" }}>
+          <div className="card project-card border-rad" style={{ width: "35rem" }}>
             <div className="image-container">
               <img
                 src={wander}
-                className="card-img-top project-img"
+                className="border-rad card-img-top project-img"
                 alt="..."
               />
             </div>
-            <div className="card-body background-white">
+            <div className="card-body border-rad background-white">
               <h5 className="card-title background-white">Wander</h5>
               <h6 className="card-subtitle mb-2 text-muted background-white">
                 React, Ruby on Rails, Google Maps API, Bootstrap, CSS
@@ -93,15 +93,15 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card" style={{ width: "35rem" }}>
+          <div className="card project-card border-rad" style={{ width: "35rem" }}>
             <div className="image-container">
               <img
                 src={dander}
-                className="card-img-top project-img"
+                className="border-rad card-img-top project-img"
                 alt="..."
               />
             </div>
-            <div className="card-body background-white">
+            <div className="card-body border-rad background-white">
               <h5 className="card-title background-white">Dander</h5>
               <h6 className="card-subtitle mb-2 text-muted background-white">
                 React, Ruby, Sinatra, Active Record,CSS
@@ -128,15 +128,15 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card" style={{ width: "35rem" }}>
+          <div className="card project-card border-rad" style={{ width: "35rem" }}>
             <div className="image-container">
               <img
                 src={jokester}
-                className="card-img-top project-img"
+                className="border-rad card-img-top project-img"
                 alt="..."
               />
             </div>
-            <div className="card-body background-white">
+            <div className="card-body border-rad background-white">
               <h5 className="card-title background-white">Jokester</h5>
               <h6 className="card-subtitle mb-2 text-muted background-white">
                 React, CSS

@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Values from "./Values";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Link } from "react-scroll";
@@ -22,6 +23,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Values />
         <Contact />
         <Footer />
       </div>

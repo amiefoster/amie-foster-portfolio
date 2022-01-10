@@ -8,10 +8,8 @@ import ror from "../images/ror.png";
 
 function Skills() {
   return (
-    <div id="skills" className="content">
-      <div className="skills-title">
-        <h1>Technical Skills</h1>
-      </div>
+    <div id="skills" className="border">
+      
       <div className="row justify-content-center">
         <div className="col-md-12 skills-container justify-content-center">
           <img src={javascript} className="skill-icon" />

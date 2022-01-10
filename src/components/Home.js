@@ -11,7 +11,8 @@ function Home() {
           </div>
           <div className="col-md-4 justify-content-center">
             <div className="home-name">
-              Hi, I'm Amie <span className="wave">👋</span>
+              Hello, I'm Amie 
+              {/* <span className="wave">👋</span> */}
             </div>
             <Typewriter
               className="typewriter"
