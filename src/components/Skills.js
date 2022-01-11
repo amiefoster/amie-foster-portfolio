@@ -5,19 +5,49 @@ import javascript from "../images/javascript.png";
 import react from "../images/react.png";
 import ruby from "../images/ruby.png";
 import ror from "../images/ror.png";
+import git from "../images/git.png";
+import smile from "../images/smile-yellow.png";
 
 function Skills() {
   return (
-    <div id="skills" className="border">
+    <div id="skills" className="">
       <div className="row justify-content-center">
+        <h1 className="col-md-12 skills-title">Technical Skills</h1>
         <div className="col-md-12 skills-container justify-content-center">
-          <img src={javascript} className="skill-icon" />
-          <img src={react} className="skill-icon" />
-          <img src={ruby} className="skill-icon" />
-          <img src={ror} className="skill-icon" />
-          <img src={html} className="skill-icon" />
-          <img src={css} className="skill-icon" />
-          <img src={bootstrap} className="skill-icon" />
+          <img src={smile} className="skill-smiley" />
+
+          <div className="skill-icon-container">
+            <img src={javascript} className="skill-icon" />
+            <p className="underline">Javascript</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={react} className="skill-icon" />
+            <p className="underline">React</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={ruby} className="skill-icon" />
+            <p className="underline">Ruby</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={ror} className="skill-icon" />
+            <p>Ruby on Rails</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={html} className="skill-icon" />
+            <p>HTML</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={css} className="skill-icon" />
+            <p>CSS</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={bootstrap} className="skill-icon" />
+            <p>Bootstrap</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={git} className="skill-icon" />
+            <p>Git</p>
+          </div>
         </div>
       </div>
     </div>

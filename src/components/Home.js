@@ -7,10 +7,10 @@ function Home() {
     <div id="home" className="content">
       <div className="container">
         <div className="row justify-content-center home-container">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <img className="profile-image" src={pic}></img>
           </div>
-          <div className="col-md-4 justify-content-center">
+          <div className="col-md-5 justify-content-center">
             <div className="home-name">
               Hello, I'm Amie <span><img src={smile} className="home-smiley"/></span>
               {/* <span className="wave">👋</span> */}

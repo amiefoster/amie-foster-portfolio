@@ -8,36 +8,56 @@ function About() {
     <div id="about" className=" about-container">
       <div className="background-none">
         <h5 className="background-none about-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          vestibulum, tellus eget consectetur consectetur, eros tellus
-          condimentum justo, vel tincidunt felis libero a ante. Donec non
-          bibendum nisi. Donec vitae diam lectus. Cras sodales dui at justo
-          pharetra, eget aliquet risus consequat. Pellentesque tortor leo,
-          lobortis et luctus eu, ullamcorper a odio. Nulla egestas sed eros non
-          vehicula. Mauris malesuada est vitae dui dictum, ut fringilla lorem
-          ullamcorper. Phasellus tellus lacus, facilisis at semper tempor,
-          rhoncus ac nisl. Sed pretium, nibh non aliquet rhoncus, nulla lacus
-          ultricies mauris, a rutrum metus nulla vel est. Pellentesque habitant
-          morbi tristique senectus et netus et malesuada fames ac turpis
-          egestas. Vestibulum tincidunt dolor eu dui tincidunt facilisis. Etiam
-          accumsan magna vel nulla gravida, ut euismod erat pharetra. Aenean vel
-          libero rutrum, feugiat tellus sed, tempus tortor. In non ligula a nisi
-          porttitor pellentesque. Quisque rhoncus ipsum eu metus congue, vitae
-          porttitor nisl lobortis.
+          Hi, I'm Amie 👋 a software engineer with a background in customer
+          service. I always had a curiosity for coding and began teaching myself
+          online as a fun hobby when I quickly realized I wanted to pursue it as
+          a career. 🧐 I found my passion for coding in the combination of
+          math/science and creativity. 💻 I am a recent graduate of the Software
+          Engineering Bootcamp at Flatiron School, where I spent 15 weeks
+          refining my skills as a full-stack developer. I am eager to find my
+          place on a collaborative team of talented individuals where I can
+          continue expanding my knowledge and developing new skills. 👩‍💻 When I'm
+          not coding new projects, you can find me hiking and exploring nature
+          🥾, curled up reading a mystery novel 📚, or listening to a true-crime
+          podcast 🕵️‍♀️.
         </h5>
       </div>
       <div className="row justify-content-center background-none about-image-container">
         <div className="col-md-1 background-none ">
-          <img src={linkedin} className="about-image background-none" />
+          <a
+            href="https://www.linkedin.com/in/amie-n-foster/"
+            target="_blank"
+            className="background-none"
+          >
+            <img src={linkedin} className="about-image background-none" />
+          </a>
         </div>
         <div className="col-md-1 background-none">
-          <img src={github} className="about-image background-none" />
+          <a
+            href="https://github.com/amiefoster"
+            target="_blank"
+            className="background-none"
+          >
+            <img src={github} className="about-image background-none" />
+          </a>
         </div>
         <div className="col-md-1 background-none">
-          <img src={medium} className="about-image background-none" />
+          <a
+            href="https://medium.com/@amie.n.foster"
+            target="_blank"
+            className="background-none"
+          >
+            <img src={medium} className="about-image background-none" />
+          </a>
         </div>
         <div className="col-md-1 background-none">
-          <img src={email} className="about-image background-none" />
+          <a
+            href="http://letsmakeplanz.herokuapp.com/"
+            target="_blank"
+            className="background-none"
+          >
+            <img src={email} className="about-image background-none" />
+          </a>
         </div>
       </div>
     </div>

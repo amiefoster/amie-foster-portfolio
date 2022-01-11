@@ -53,6 +53,9 @@
     transform: translateX(25%);
   }
 } */
+#home {
+  border-bottom: 3px black solid;
+}
 
 .home-container {
   margin-top: 100px;
@@ -84,9 +87,12 @@
   display: block;
   margin: 0px auto;
   border: #0a0604 solid 1px;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
 }
 
 .profile-image:hover {
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 50%);
+
   animation: bounce 2s infinite;
 }
 
@@ -160,6 +166,8 @@
   flex-wrap: wrap;
   background-color: #00ae79;
   height: 100vh;
+  padding: 75px;
+  border-bottom: 3px black solid;
 }
 
 .skills-title {
@@ -168,17 +176,42 @@
   justify-content: center;
   text-align: center;
   font-family: "BioRhyme", serif;
+  border-top: 3px black solid;
+  margin: 0;
+  font-size: 60px;
+  padding: 20px;
 }
 
 .skill-icon {
   justify-self: center;
-  margin: 50px;
+  margin: 15px;
   height: 125px;
   padding: 15px;
   border-radius: 1000px;
-  background-color: #00ae79;
-  margin: 30px;
-  /* border: 3px black solid; */
+  background-color: #f3efe6;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
+  border: 1px black solid;
+}
+
+.skill-icon-container {
+  background: none;
+  text-align: center;
+  margin: 20px;
+}
+
+.skill-icon-container > p {
+  background: none;
+  font-size: large;
+  left: 10px;
+}
+
+.skill-smiley{
+  border-radius: 1000px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  top: 2350px;
+  transform: rotate(-20deg)
 }
 
 .project-title {
@@ -194,12 +227,20 @@
   padding: 20px;
 }
 
+.card-title{
+  font-family: "BioRhyme", serif;
+  font-size: 30px;
+  padding: 20px 0px 10px 0px;
+}
+
 .project-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #ceb8a2;
   height: 150vh;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .border-rad {
@@ -209,8 +250,9 @@
 .project-card {
   margin: 20px;
   /* border-radius: 10px; */
-  background-color: white;
+  background-color: #f3efe6;
   border: black 1px solid;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
 }
 
 .project-img {
@@ -236,7 +278,7 @@
 }
 
 .background-white {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #f3efe6;
 }
 
 .footer-container {
@@ -311,6 +353,17 @@ form {
   height: 75px;
   border-radius: 1000px;
   border: black 1px solid;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
+  cursor: pointer;
+ 
+}
+
+.about-image:hover{
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 50%);
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .home-button {
@@ -320,19 +373,23 @@ form {
   padding: 10px;
   border-radius: 1000px;
   background: #00ae79;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
 }
 
 .home-button:hover {
   cursor: pointer;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 50%);
+
 }
 
 .values-container {
   justify-content: center;
   text-align: center;
-  height: 100vh;
-  background: white;
+  height: 110vh;
+  background: #f3efe6;
   color: #00ae79;
-  padding-top: 200px;;
+  padding-top: 150px;
+  border-top: 3px black solid;
 }
 
 .values-image {
@@ -374,7 +431,7 @@ form {
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }

@@ -10,6 +10,8 @@ import Footer from "./Footer";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import "../App.css";
+import smile from "../images/smile-yellow.png"
+
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <div className="content">
         <Home />
         <About />
+        {/* <img src={smile} className="skill-smiley"/> */}
+
         <Skills />
         <Projects />
         <Values />
