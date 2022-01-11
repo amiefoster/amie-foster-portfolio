@@ -1,7 +1,7 @@
-import linkedin from '../images/linkedin-white.png'
-import github from '../images/github-white.png'
-import medium from '../images/medium-white.png'
-import gmail from '../images/gmail-white.png'
+import linkedin from '../images/linkedin-tan.png'
+import github from '../images/github-tan.png'
+import medium from '../images/medium-tan.png'
+import gmail from '../images/email-tan.png'
 
 
 function Footer() {
