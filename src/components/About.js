@@ -1,6 +1,11 @@
+import linkedin from "../images/linkedin-green.png";
+import email from "../images/email-green.png";
+import github from "../images/github-green.png";
+import medium from "../images/medium-green.png";
+
 function About() {
   return (
-    <div id="about" className="content about-container">
+    <div id="about" className=" about-container">
       <div className="background-none">
         <h5 className="background-none about-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
@@ -20,6 +25,20 @@ function About() {
           porttitor pellentesque. Quisque rhoncus ipsum eu metus congue, vitae
           porttitor nisl lobortis.
         </h5>
+      </div>
+      <div className="row justify-content-center background-none about-image-container">
+        <div className="col-md-1 background-none ">
+          <img src={linkedin} className="about-image background-none" />
+        </div>
+        <div className="col-md-1 background-none">
+          <img src={github} className="about-image background-none" />
+        </div>
+        <div className="col-md-1 background-none">
+          <img src={medium} className="about-image background-none" />
+        </div>
+        <div className="col-md-1 background-none">
+          <img src={email} className="about-image background-none" />
+        </div>
       </div>
     </div>
   );

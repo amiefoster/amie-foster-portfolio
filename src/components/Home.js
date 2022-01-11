@@ -1,5 +1,6 @@
 import { Typewriter } from "typewriting-react";
 import pic from "../images/amie.JPG";
+import smile from '../images/smile1.png'
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
           </div>
           <div className="col-md-4 justify-content-center">
             <div className="home-name">
-              Hello, I'm Amie 
+              Hello, I'm Amie <span><img src={smile} className="home-smiley"/></span>
               {/* <span className="wave">👋</span> */}
             </div>
             <Typewriter

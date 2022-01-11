@@ -11,6 +11,7 @@ function Project() {
     <div id="projects" className="" >
       <div className="row project-title">
         <h1 className="background-none">Projects</h1>
+        <h6>Here are a few examples of my work.</h6>
       </div>
 
       <div className="row ">

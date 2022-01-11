@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div id="contact" className="row contact-container">
       <div className="contact-title">
-      <h1 className="background-none">Let's get in touch!</h1>
+      <h1 className="background-none ">Let's get in touch!</h1>
 
       </div>
       <div className="col-md-6 contact-container ">
