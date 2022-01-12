@@ -2,9 +2,9 @@ import planz from "../images/planz.jpeg";
 import wander from "../images/wander.jpeg";
 import dander from "../images/dander.jpeg";
 import jokester from "../images/jokester.jpeg";
-import youtube from '../images/youtube.png';
-import github from '../images/github2.png';
-import open from '../images/open.png';
+import youtube from '../images/youtube-black.png';
+import github from '../images/code-black.png';
+import open from '../images/open-black.png';
 
 function Project() {
   return (
@@ -42,7 +42,7 @@ function Project() {
                 className="card-link background-white"
                 target="_blank"
               >
-                <img src={youtube} className="project-links"/>
+                <img src={youtube} className="project-links youtube"/>
               </a>
               <a
                 href="https://github.com/amiefoster/bash"
@@ -82,7 +82,7 @@ function Project() {
                 className="card-link background-white"
                 target="_blank"
               >
-                <img src={youtube} className="project-links"/>
+                <img src={youtube} className="project-links youtube"/>
               </a>
               <a
                 href="https://github.com/amiefoster/wander"
@@ -117,7 +117,7 @@ function Project() {
                 className="card-link background-white"
                 target="_blank"
               >
-                <img src={youtube} className="project-links"/>
+                <img src={youtube} className="project-links youtube"/>
               </a>
               <a
                 href="https://github.com/amiefoster/pet-tinder-frontend"
@@ -151,7 +151,7 @@ function Project() {
                 className="card-link background-white"
                 target="_blank"
               >
-                <img src={youtube} className="project-links"/>
+                <img src={youtube} className="project-links "/>
               </a>
               <a
                 href="https://github.com/amiefoster/jokester"

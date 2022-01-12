@@ -1,6 +1,6 @@
 import { Typewriter } from "typewriting-react";
 import pic from "../images/amie.JPG";
-import smile from '../images/smile1.png'
+import smile from '../images/smile-tan.png'
 
 function Home() {
   return (

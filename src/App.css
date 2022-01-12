@@ -58,7 +58,7 @@
 }
 
 .home-container {
-  margin-top: 100px;
+  margin-top: 130px;
   text-align: center;
   height: 80vh;
 }
@@ -266,6 +266,11 @@
 
 .project-links:hover {
   transform: scale(1.2);
+ 
+}
+
+.youtube{
+  height: 30px;
 }
 
 .image-container {
@@ -339,6 +344,7 @@ form {
   background-color: #f3efe6;
   height: 100vh;
   color: #0a0604;
+  
 }
 
 .about-text {
