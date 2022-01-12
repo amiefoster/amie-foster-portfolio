@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amie-foster-portfolio/static/css/main.5848159e.css",
-    "main.js": "/amie-foster-portfolio/static/js/main.ee4d744c.js",
+    "main.css": "/amie-foster-portfolio/static/css/main.90ec8bb0.css",
+    "main.js": "/amie-foster-portfolio/static/js/main.5e79f829.js",
     "static/media/amie.JPG": "/amie-foster-portfolio/static/media/amie.0f027a1552d4cfd3373b.JPG",
     "static/media/wander.jpeg": "/amie-foster-portfolio/static/media/wander.1d53ef93291162beb007.jpeg",
     "static/media/dander.jpeg": "/amie-foster-portfolio/static/media/dander.094e6704cc3cc4bf1728.jpeg",
@@ -15,19 +15,20 @@
     "static/media/medium-green.png": "/amie-foster-portfolio/static/media/medium-green.39bf41a942de2568664a.png",
     "static/media/email-green.png": "/amie-foster-portfolio/static/media/email-green.f3b0d3ca18c4fe952b96.png",
     "static/media/linkedin-tan.png": "/amie-foster-portfolio/static/media/linkedin-tan.5a84e01f919ef6e15124.png",
-    "static/media/smile1.png": "/amie-foster-portfolio/static/media/smile1.82ab881352af4e6952f1.png",
+    "static/media/smile-tan.png": "/amie-foster-portfolio/static/media/smile-tan.82ab881352af4e6952f1.png",
     "static/media/smile-yellow.png": "/amie-foster-portfolio/static/media/smile-yellow.03bb8eab3ee78f6e2696.png",
     "static/media/linkedin-green.png": "/amie-foster-portfolio/static/media/linkedin-green.71647b08058b3d7c6d6a.png",
     "static/media/handshake.png": "/amie-foster-portfolio/static/media/handshake.05f24769a55766d0f315.png",
     "static/media/magnifier.png": "/amie-foster-portfolio/static/media/magnifier.5eb446879454d4282e69.png",
     "static/media/support.png": "/amie-foster-portfolio/static/media/support.a702d2ac2bbd348fa52d.png",
     "static/media/idea.png": "/amie-foster-portfolio/static/media/idea.7c754704dba9f8543c46.png",
+    "static/media/code-black.png": "/amie-foster-portfolio/static/media/code-black.5c2965015fcb90c9a1c3.png",
     "index.html": "/amie-foster-portfolio/index.html",
-    "main.5848159e.css.map": "/amie-foster-portfolio/static/css/main.5848159e.css.map",
-    "main.ee4d744c.js.map": "/amie-foster-portfolio/static/js/main.ee4d744c.js.map"
+    "main.90ec8bb0.css.map": "/amie-foster-portfolio/static/css/main.90ec8bb0.css.map",
+    "main.5e79f829.js.map": "/amie-foster-portfolio/static/js/main.5e79f829.js.map"
   },
   "entrypoints": [
-    "static/css/main.5848159e.css",
-    "static/js/main.ee4d744c.js"
+    "static/css/main.90ec8bb0.css",
+    "static/js/main.5e79f829.js"
   ]
 }
