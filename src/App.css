@@ -224,7 +224,7 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #ceb8a2;
-  height: 150vh;
+  height: 165vh;
   margin-top: 25px;
   margin-bottom: 170px;
 }
@@ -345,7 +345,7 @@ form {
 .about-container {
   padding: 100px 80px 50px 80px;
   background-color: #f3efe6;
-  height: 100vh;
+  height: 115vh;
   color: #0a0604;
 }
 
@@ -367,7 +367,7 @@ form {
 }
 
 .about-image-container {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .about-image {
