@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/amie-foster-portfolio/static/css/main.279ff84d.css",
-    "main.js": "/amie-foster-portfolio/static/js/main.deae5876.js",
+    "main.css": "/amie-foster-portfolio/static/css/main.5848159e.css",
+    "main.js": "/amie-foster-portfolio/static/js/main.ee4d744c.js",
     "static/media/amie.JPG": "/amie-foster-portfolio/static/media/amie.0f027a1552d4cfd3373b.JPG",
     "static/media/wander.jpeg": "/amie-foster-portfolio/static/media/wander.1d53ef93291162beb007.jpeg",
     "static/media/dander.jpeg": "/amie-foster-portfolio/static/media/dander.094e6704cc3cc4bf1728.jpeg",
     "static/media/jokester.jpeg": "/amie-foster-portfolio/static/media/jokester.1de34363805c23e69735.jpeg",
     "static/media/planz.jpeg": "/amie-foster-portfolio/static/media/planz.1e2367088e1dc13c92bf.jpeg",
+    "static/media/github-tan.png": "/amie-foster-portfolio/static/media/github-tan.b52e6095af59af7b3c40.png",
+    "static/media/medium-tan.png": "/amie-foster-portfolio/static/media/medium-tan.bbb8297d2eb820ec51b8.png",
+    "static/media/black-flower.png": "/amie-foster-portfolio/static/media/black-flower.a6c325dc6b169bcd36bd.png",
+    "static/media/email-tan.png": "/amie-foster-portfolio/static/media/email-tan.78de19f6fac8a205c89c.png",
+    "static/media/github-green.png": "/amie-foster-portfolio/static/media/github-green.ca63f4ba0b02a6c2143b.png",
     "static/media/medium-green.png": "/amie-foster-portfolio/static/media/medium-green.39bf41a942de2568664a.png",
     "static/media/email-green.png": "/amie-foster-portfolio/static/media/email-green.f3b0d3ca18c4fe952b96.png",
-    "static/media/github-green.png": "/amie-foster-portfolio/static/media/github-green.1883468ef9a8ac1025c0.png",
+    "static/media/linkedin-tan.png": "/amie-foster-portfolio/static/media/linkedin-tan.5a84e01f919ef6e15124.png",
     "static/media/smile1.png": "/amie-foster-portfolio/static/media/smile1.82ab881352af4e6952f1.png",
+    "static/media/smile-yellow.png": "/amie-foster-portfolio/static/media/smile-yellow.03bb8eab3ee78f6e2696.png",
     "static/media/linkedin-green.png": "/amie-foster-portfolio/static/media/linkedin-green.71647b08058b3d7c6d6a.png",
     "static/media/handshake.png": "/amie-foster-portfolio/static/media/handshake.05f24769a55766d0f315.png",
     "static/media/magnifier.png": "/amie-foster-portfolio/static/media/magnifier.5eb446879454d4282e69.png",
     "static/media/support.png": "/amie-foster-portfolio/static/media/support.a702d2ac2bbd348fa52d.png",
     "static/media/idea.png": "/amie-foster-portfolio/static/media/idea.7c754704dba9f8543c46.png",
     "index.html": "/amie-foster-portfolio/index.html",
-    "main.279ff84d.css.map": "/amie-foster-portfolio/static/css/main.279ff84d.css.map",
-    "main.deae5876.js.map": "/amie-foster-portfolio/static/js/main.deae5876.js.map"
+    "main.5848159e.css.map": "/amie-foster-portfolio/static/css/main.5848159e.css.map",
+    "main.ee4d744c.js.map": "/amie-foster-portfolio/static/js/main.ee4d744c.js.map"
   },
   "entrypoints": [
-    "static/css/main.279ff84d.css",
-    "static/js/main.deae5876.js"
+    "static/css/main.5848159e.css",
+    "static/js/main.ee4d744c.js"
   ]
 }
