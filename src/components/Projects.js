@@ -23,12 +23,12 @@ function Project() {
             <div className="card-body border-rad background-white">
               <h5 className="card-title background-white">Planz</h5>
               <h6 className="card-subtitle mb-2 text-muted background-white">
-                React, Ruby on Rails, BCrypt, Bootstrap, CSS
+                React, Ruby on Rails, BCrypt, Bootstrap, CSS, NPM
               </h6>
               <p className="card-text background-white">
                 Planz is centralized hub for creating and organizing events.
                 Users can log in, create an event, invite guests, and add event
-                specific information.
+                specific information. This full-stack application was created with a React frontent and Ruby on Rails backend with RESTFUL routes. Featuring BCrypt library to secure user passwords, and sessions and cookies to store user authentication.
               </p>
               <a
                 href="http://letsmakeplanz.herokuapp.com/"
@@ -68,7 +68,7 @@ function Project() {
                 React, Ruby on Rails, Google Maps API, Bootstrap, CSS
               </h6>
               <p className="card-text background-white">
-                An app for avid hikers. Users can log in, discover hikes within national parks, and save hikes to their profile.
+                An app for avid hikers. Users can log in, discover hikes within national parks, and save hikes to their profile. Incorporating the Google Maps API, to display trailheads and general trail information, as well as dynamic routing for seamless navigation and seperation of concerns. Created with a React frontend and Ruby on Rails API backend with RESTful routes.
               </p>
               <a
                 href="https://wanderproject.herokuapp.com/"
@@ -105,12 +105,12 @@ function Project() {
             <div className="card-body border-rad background-white">
               <h5 className="card-title background-white">Dander</h5>
               <h6 className="card-subtitle mb-2 text-muted background-white">
-                React, Ruby, Sinatra, Active Record,CSS
+                React, Ruby, Sinatra, Active Record,CSS, NPM
               </h6>
               <p className="card-text background-white">
                 A dating app for people who love pets! Users can match with
                 potential love interests based on their furry companions and
-                view matches that liked them back.
+                view matches that liked them back. Developed with Javascript/React front-end and Ruby/ActiveRecord/Sinatra back-end.
               </p>
               <a
                 href="https://www.youtube.com/watch?v=oGnj3lPhW7U&feature=youtu.be"
