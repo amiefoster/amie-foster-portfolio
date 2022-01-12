@@ -2,6 +2,7 @@ import linkedin from "../images/linkedin-green.png";
 import email from "../images/email-green.png";
 import github from "../images/github-green.png";
 import medium from "../images/medium-green.png";
+import pic from "../images/black-flower.png"
 
 function About() {
   return (
@@ -60,6 +61,8 @@ function About() {
           </a>
         </div>
       </div>
+      <img src={pic} className="about-picture" />
+
     </div>
   );
 }

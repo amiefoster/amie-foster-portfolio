@@ -15,7 +15,6 @@ function Skills() {
         <h1 className="col-md-12 skills-title">Technical Skills</h1>
         <div className="col-md-12 skills-container justify-content-center">
           <img src={smile} className="skill-smiley" />
-
           <div className="skill-icon-container">
             <img src={javascript} className="skill-icon" />
             <p className="underline">Javascript</p>

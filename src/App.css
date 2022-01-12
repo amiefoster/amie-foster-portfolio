@@ -207,9 +207,9 @@
 
 .skill-smiley{
   border-radius: 1000px;
-  height: 200px;
+  height: 300px;
   position: absolute;
-  left: 50px;
+  left: -30px;
   top: 2350px;
   transform: rotate(-20deg)
 }
@@ -364,6 +364,15 @@ form {
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.about-picture{
+  height: 300px;
+  position:absolute;
+  right: 5px;
+  top: 1330px;
+  background: none;
+  transform: rotate(40deg);
 }
 
 .home-button {
