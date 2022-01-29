@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amie-foster-portfolio/static/css/main.e7b0228f.css",
-    "main.js": "/amie-foster-portfolio/static/js/main.e248dffd.js",
+    "main.js": "/amie-foster-portfolio/static/js/main.c29419c1.js",
     "static/media/amie.JPG": "/amie-foster-portfolio/static/media/amie.0f027a1552d4cfd3373b.JPG",
     "static/media/wander.jpeg": "/amie-foster-portfolio/static/media/wander.1d53ef93291162beb007.jpeg",
     "static/media/dander.jpeg": "/amie-foster-portfolio/static/media/dander.094e6704cc3cc4bf1728.jpeg",
@@ -25,10 +25,10 @@
     "static/media/code-black.png": "/amie-foster-portfolio/static/media/code-black.5c2965015fcb90c9a1c3.png",
     "index.html": "/amie-foster-portfolio/index.html",
     "main.e7b0228f.css.map": "/amie-foster-portfolio/static/css/main.e7b0228f.css.map",
-    "main.e248dffd.js.map": "/amie-foster-portfolio/static/js/main.e248dffd.js.map"
+    "main.c29419c1.js.map": "/amie-foster-portfolio/static/js/main.c29419c1.js.map"
   },
   "entrypoints": [
     "static/css/main.e7b0228f.css",
-    "static/js/main.e248dffd.js"
+    "static/js/main.c29419c1.js"
   ]
 }
