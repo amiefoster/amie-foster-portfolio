@@ -16,7 +16,7 @@ function Project() {
 
       <div className="row ">
         <div className="col-md-12 project-container justify-content-center">
-          <div className="card border-rad project-card" style={{ width: "35rem" }}>
+          <div className="card border-rad project-card" style={{ width: "35rem", height: "40rem"}}>
             <div className="image-container">
               <img src={planz} className=" border-rad card-img-top project-img" alt="..." />
             </div>
@@ -54,7 +54,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card border-rad" style={{ width: "35rem" }}>
+          <div className="card project-card border-rad" style={{ width: "35rem", height: "40rem" }}>
             <div className="image-container">
               <img
                 src={wander}
@@ -94,7 +94,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card border-rad" style={{ width: "35rem" }}>
+          <div className="card project-card border-rad" style={{ width: "35rem", height: "40rem" }}>
             <div className="image-container">
               <img
                 src={dander}
@@ -129,7 +129,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="card project-card border-rad" style={{ width: "35rem" }}>
+          <div className="card project-card border-rad" style={{ width: "35rem", height: "40rem" }}>
             <div className="image-container">
               <img
                 src={jokester}
