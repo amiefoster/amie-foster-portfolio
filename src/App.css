@@ -225,13 +225,13 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #ceb8a2;
-  height: 160vh;
+  height: 170vh;
   margin-top: 25px;
   margin-bottom: 100px;
 }
 @media (max-width: 75rem) {
   .project-container {
-    height: 290vh;
+    height: 350vh;
   }
 
   /* This will resize the card when the screen is smaller */
@@ -356,7 +356,7 @@ form {
 }
 
 .about-container {
-  padding: 100px 80px 50px 80px;
+  padding: 80px 80px 50px 80px;
   background-color: #f3efe6;
   height: 115vh;
   color: #0a0604;
@@ -377,10 +377,6 @@ form {
 
 .about-text {
   margin-top: 30px;
-}
-
-.about-image-container {
-  margin-top: 35px;
 }
 
 .about-image {

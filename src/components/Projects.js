@@ -78,7 +78,7 @@ function Project() {
                 <img src={open} className="project-links"/>
               </a>
               <a
-                href="https://www.youtube.com/watch?v=adgPPzfKjs4&feature=youtu.be"
+                href="https://www.youtube.com/watch?v=TF_uBL9ChRQ"
                 className="card-link background-white"
                 target="_blank"
               >
