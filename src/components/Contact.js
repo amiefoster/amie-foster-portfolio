@@ -2,11 +2,10 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault();    
 
     emailjs.sendForm('service_r0rmwmg', 'template_u91z2cs', form.current, 'user_fPg52oeLyMffo5sbNj50i')
       .then((result) => {
@@ -63,7 +62,7 @@ function Contact() {
               </label>
             </div>
 
-            <input type="submit" value="Send" class="btn btn-dark"/>
+            <input type="submit" value="Send" class="btn btn-dark" />
           
         </form>
       </div>

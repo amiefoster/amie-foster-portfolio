@@ -225,9 +225,20 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #ceb8a2;
-  height: 165vh;
+  height: 160vh;
   margin-top: 25px;
-  margin-bottom: 170px;
+  margin-bottom: 100px;
+}
+@media (max-width: 75rem) {
+  .project-container {
+    height: 290vh;
+  }
+
+  /* This will resize the card when the screen is smaller */
+
+  /* .project-card{
+    width: 30rem!important;
+  } */
 }
 
 .project-title {
@@ -258,6 +269,7 @@ html {
   background-color: #f3efe6;
   border: black 1px solid;
   box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
+ 
 }
 
 .project-img {
