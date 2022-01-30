@@ -151,7 +151,7 @@ function Project() {
                 className="card-link background-white"
                 target="_blank"
               >
-                <img src={youtube} className="project-links "/>
+                <img src={youtube} className="project-links youtube"/>
               </a>
               <a
                 href="https://github.com/amiefoster/jokester"

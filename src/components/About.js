@@ -26,6 +26,11 @@ function About() {
           curled up reading a mystery novel, or listening to a true-crime
           podcast.
         </h5>
+        <br/><br/>
+        <h5 className="background-none">
+          Check out some of my work down below and feel free to connect with me
+          on LinkedIn!
+        </h5>
       </div>
       <div className="row justify-content-center background-none about-image-container">
         <div className="col-md-1 background-none ">
