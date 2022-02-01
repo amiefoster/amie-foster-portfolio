@@ -29,13 +29,6 @@ function Footer() {
           >
         <img src={github} alt="" className="footer-icon" />
         </a>
-        <a
-            href="mailto: amie.n.foster@gmail.com"
-            target="_blank"
-            className="background-none"
-          >
-        <img src={gmail} alt="" className="footer-icon" />
-        </a>
 
       </div>
     

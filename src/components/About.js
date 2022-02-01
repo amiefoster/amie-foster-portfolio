@@ -60,15 +60,7 @@ function About() {
             <img src={medium} className="about-image background-none" />
           </a>
         </div>
-        <div className="col-md-1 background-none">
-          <a
-            href="mailto: amie.n.foster@gmail.com"
-            target="_blank"
-            className="background-none"
-          >
-            <img src={email} className="about-image background-none" />
-          </a>
-        </div>
+       
       </div>
       {/* <img src={pic} className="about-picture" /> */}
     </div>

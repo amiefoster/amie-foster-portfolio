@@ -229,9 +229,14 @@ html {
   margin-top: 25px;
   margin-bottom: 100px;
 }
+
 @media (max-width: 75rem) {
   .project-container {
     height: 350vh;
+  }
+
+  .about-container {
+    height: 130vh!important;  
   }
 
   /* This will resize the card when the screen is smaller */
