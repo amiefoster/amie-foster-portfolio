@@ -10,9 +10,7 @@ function Values() {
         <img src={idea} className="values-image" />
         <h3 className="background-none values-title">Innovation</h3>
         <h5 className="background-none">
-          {/* Lorem ipsum dolor sit amet, qui ut exerci feugiat mentitum, zril
-          utamur euripidis eos ne. Case tantas vix ad, nec at dolore voluptatum
-          suscipiantur, ad alterum incorrupte eloquentiam pri.{" "} */}
+         Able to think of innovative solutions to complex problems. 
         </h5>
       </div>
       
@@ -20,9 +18,8 @@ function Values() {
         <img src={magnifier} className="values-image" />
         <h3 className="background-none values-title">Eager for Knowledge</h3>
         <h5 className="background-none">
-          {/* Lorem ipsum dolor sit amet, qui ut exerci feugiat mentitum, zril
-          utamur euripidis eos ne. Case tantas vix ad, nec at dolore voluptatum
-          suscipiantur, ad alterum incorrupte eloquentiam pri.{" "} */}
+        Coachable, willing to learn new skills, and motivated to grow in my career.
+      
         </h5>
       </div>
      
@@ -30,9 +27,10 @@ function Values() {
         <img src={support} className="values-image" />
         <h3 className="background-none values-title">Collaboration</h3>
         <h5 className="background-none">
-          {/* Lorem ipsum dolor sit amet, qui ut exerci feugiat mentitum, zril
-          utamur euripidis eos ne. Case tantas vix ad, nec at dolore voluptatum
-          suscipiantur, ad alterum incorrupte eloquentiam pri.{" "} */}
+        Develops and maintains effective relationships with others in order to encourage and support the team.
+
+        {/* https://bladerunnerlhr.medium.com/8-proven-examples-to-put-teamwork-on-your-resume-fb79f918276a */}
+         
         </h5>
       </div>
     </div>

@@ -13,20 +13,21 @@ function About() {
 
       <div className=" col-md-6 background-none">
         <h5 className="background-none about-text">
-          Hi, I'm Amie, a software engineer with a background in customer
-          service. I always had a curiosity for coding and began teaching myself
-          online as a fun hobby when I quickly realized I wanted to pursue it as
-          a career. I found my passion for coding in the combination of
-          math/science and creativity. I am a recent graduate of the Software
-          Engineering Bootcamp at Flatiron School, where I spent 15 weeks
-          refining my skills as a full-stack developer. I am eager to find my
-          place on a collaborative team of talented individuals where I can
-          continue expanding my knowledge and developing new skills. When I'm
-          not coding new projects, you can find me hiking and exploring nature,
-          curled up reading a mystery novel, or listening to a true-crime
-          podcast.
+          Hi, I'm Amie, a software engineer with 8 months of experience as a
+          junior software engineer at a growing start-up. I always had a
+          curiosity for coding and began teaching myself online as a fun hobby
+          when I quickly realized I wanted to pursue it as a career. I found my
+          passion for coding in the combination of math/science and creativity.
+          I gained my skills from attending a Software Engineering Bootcamp at
+          Flatiron School, where I spent 15 weeks refining my skills as a
+          full-stack developer. I am eager to find my place on a collaborative
+          team of talented individuals where I can continue expanding my
+          knowledge and developing new skills. When I'm not coding new projects,
+          you can find me hiking and exploring nature, curled up reading a
+          mystery novel, or listening to a true-crime podcast.
         </h5>
-        <br/><br/>
+        <br />
+        <br />
         <h5 className="background-none">
           Check out some of my work down below and feel free to connect with me
           on LinkedIn!
@@ -60,7 +61,6 @@ function About() {
             <img src={medium} className="about-image background-none" />
           </a>
         </div>
-       
       </div>
       {/* <img src={pic} className="about-picture" /> */}
     </div>
